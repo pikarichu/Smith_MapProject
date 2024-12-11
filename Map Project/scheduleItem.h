@@ -29,23 +29,23 @@ public:
 	// Stores csv line in the Map
 	// 
 
-	string getSubject();
+	string getSubject() { return subject; }
 
-	string getCatalog();
+	string getCatalog() { return catalog; }
 
-	string getSection();
+	string getSection() { return section; }
 
-	string getComponent();
+	string getComponent() { return component; }
 
-	string getSession();
+	string getSession() { return session; }
 
-	int getUnits();
+	int getUnits() { return units; }
 
-	int getTotEnrl();
+	int getTotEnrl() { return totEnrl; }
 
-	int getCapEnrl();
+	int getCapEnrl() { return capEnrl; }
 
-	string getInstructor();
+	string getInstructor() { return instructor; }
 
 	
 

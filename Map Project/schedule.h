@@ -37,48 +37,48 @@ public:
 					if (count == 0)
 					{
 						subject = itemValue;
-						cout << "subject: " << subject << endl;
+						//cout << "subject: " << subject << endl;
 					}
 					else if (count == 1)
 					{
 						catalog = itemValue;
-						cout << "catalog: " << catalog << endl;
+						//cout << "catalog: " << catalog << endl;
 					}
 					else if (count == 2)
 					{
 						section = itemValue;
-						cout << "section: " << section << endl;
+						//cout << "section: " << section << endl;
 					}
 					else if (count == 3)
 					{
 						component = itemValue;
-						cout << "component: " << component << endl;
+						//cout << "component: " << component << endl;
 					}
 					else if (count == 4)
 					{
 						session = itemValue;
-						cout << "session: " << session << endl;
+						//cout << "session: " << session << endl;
 					}
 					else if (count == 6)
 					{
 						//cout << typeid(units).name() << endl;
 						units = stoi(itemValue);
-						cout << "units: " << units << endl;
+						//cout << "units: " << units << endl;
 					}
 					else if (count == 7)
 					{
 						totEnrl = stoi(itemValue);
-						cout << "totEnrl: " << totEnrl << endl;
+						//cout << "totEnrl: " << totEnrl << endl;
 					}
 					else if (count == 8)
 					{
 						capEnrl = stoi(itemValue);
-						cout << "capEnrl: " << capEnrl << endl;
+						//cout << "capEnrl: " << capEnrl << endl;
 					}
 					else if (count == 10)
 					{
 						instructor = itemValue;
-						cout << "instructor: " << instructor << endl;
+						//cout << "instructor: " << instructor << endl;
 					}
 					else
 					{
@@ -94,7 +94,7 @@ public:
 				key = (subject + "_" + catalog + "_" + section);
 				myMap[key] = *this;
 
-				cout << endl;
+				//cout << endl;
 
 			}
 		}
